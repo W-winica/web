@@ -1,0 +1,26 @@
+/*清除浏览器的默认样式*/
+* {
+    /*浏览器的默认样式*/
+    padding:0;
+    margin:0;
+    box-sizing:border-box;/*改变盒子模型*/
+}
+html,body {
+    font-size:16px;
+    font-family:"Microsoft YaHei","sans-serif"
+}
+ul,ol {
+    list-style:none;/*把列表的点去掉*/
+}
+a {
+    text-decoration: none;/*下划线去掉*/
+}
+a:hover,a:active,a:link,a:visited {
+    color:inherit;/*继承父元素*/
+}
+input,textarea,select {
+    outline:none;/*表单蓝色的outline线去掉*/
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:16px;
+}
